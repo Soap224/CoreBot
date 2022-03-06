@@ -12,13 +12,13 @@ public class CoreBot{
 
     public static final long messageDeleteTime = 20000; //milliseconds
     public static final int warnExpireDays = 20;
-
+    public static Prefs prefs2 = new Prefs(prefsFile);
     public static ContentHandler contentHandler = new ContentHandler();
     public static Messages messages = new Messages();
     public static Net net = new Net();
     public static Prefs prefs = new Prefs(prefsFile);
-    public static StreamScanner streams = new StreamScanner();
-    public static VideoScanner videos = new VideoScanner();
+    //public static StreamScanner streams = new StreamScanner();
+    //public static VideoScanner videos = new VideoScanner();
     //public static Reports reports = new Reports();
 
     public static void main(String[] args){
